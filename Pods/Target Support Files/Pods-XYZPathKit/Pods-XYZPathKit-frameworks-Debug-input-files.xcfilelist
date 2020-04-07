@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-XYZPathKit/Pods-XYZPathKit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
+${BUILT_PRODUCTS_DIR}/XYZTimeKit/XYZTimeKit.framework

@@ -1,0 +1,25 @@
+PODS:
+  - FileKit (5.2.0)
+  - SwiftDate (6.1.0)
+  - XYZTimeKit (2.0.1):
+    - SwiftDate
+
+DEPENDENCIES:
+  - FileKit
+  - SwiftDate
+  - XYZTimeKit
+
+SPEC REPOS:
+  trunk:
+    - FileKit
+    - SwiftDate
+    - XYZTimeKit
+
+SPEC CHECKSUMS:
+  FileKit: 10bfd8a3023a0b09f24c9f49546cbbddf43fd464
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  XYZTimeKit: 7c4e36e40c4ddc2e2b92e0ff028843a40df6dbd7
+
+PODFILE CHECKSUM: 84cbff3978db59e0c7081d6ba3b93142a6a485d4
+
+COCOAPODS: 1.9.1
