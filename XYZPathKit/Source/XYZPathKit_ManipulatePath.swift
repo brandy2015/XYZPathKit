@@ -14,11 +14,12 @@ import XYZTimeKit
 
 //Rename FileName
 public extension Path{
-    func RenameFile(NewName:String){
+    
+    func RenameFile(NewName:String) {
         let CurrentFilePath = self
         let fatherPath = CurrentFilePath^
         let NewPath = fatherPath + NewName
-        let newname2 = "1" + NewName
+        let newname2 = "1" + NewName//这里是重命名
         let NewPath2 = fatherPath + newname2
         do {
             try CurrentFilePath ->> NewPath
