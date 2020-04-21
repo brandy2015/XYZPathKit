@@ -30,6 +30,9 @@
 		D6CC72D6243C91C000DEF3E2 /* XYZPath_XYZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC72D5243C91C000DEF3E2 /* XYZPath_XYZString.swift */; };
 		D6CC72D8243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC72D7243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift */; };
 		D6D071F5243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D071F4243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift */; };
+		D6FBEEDE244FBDF800E845B1 /* XYZPath_XYZFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEEDD244FBDF800E845B1 /* XYZPath_XYZFolder.swift */; };
+		D6FBEEE0244FBEEA00E845B1 /* XYZFileTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEEDF244FBEEA00E845B1 /* XYZFileTypeEnum.swift */; };
+		D6FBEEE2244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		D6CC72D5243C91C000DEF3E2 /* XYZPath_XYZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_XYZString.swift; sourceTree = "<group>"; };
 		D6CC72D7243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_UIDocumentBrowser.swift; sourceTree = "<group>"; };
 		D6D071F4243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZPath_UIImage_ImageHelper.swift; sourceTree = "<group>"; };
+		D6FBEEDD244FBDF800E845B1 /* XYZPath_XYZFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_XYZFolder.swift; sourceTree = "<group>"; };
+		D6FBEEDF244FBEEA00E845B1 /* XYZFileTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZFileTypeEnum.swift; sourceTree = "<group>"; };
+		D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_JudgeFileType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +148,10 @@
 				D6CC72D1243C913F00DEF3E2 /* XYZPath_XYZFile.swift */,
 				D6CC72D3243C919700DEF3E2 /* XYZPath_XYZVideo.swift */,
 				D6CC72D5243C91C000DEF3E2 /* XYZPath_XYZString.swift */,
+				D6FBEEDD244FBDF800E845B1 /* XYZPath_XYZFolder.swift */,
+				D6FBEEDF244FBEEA00E845B1 /* XYZFileTypeEnum.swift */,
 				D6CC72D7243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift */,
+				D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -267,10 +276,12 @@
 			files = (
 				D6CC72D4243C919700DEF3E2 /* XYZPath_XYZVideo.swift in Sources */,
 				D6CC72C3243C85B600DEF3E2 /* XYZPathKit_ManipulatePath.swift in Sources */,
+				D6FBEEE2244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift in Sources */,
 				D6D071F5243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift in Sources */,
 				D6BEF190243C5F3700828273 /* ViewController.swift in Sources */,
 				D6CC72C1243C840800DEF3E2 /* XYZPathKit_UserDevicePath.swift in Sources */,
 				D6CC72D2243C913F00DEF3E2 /* XYZPath_XYZFile.swift in Sources */,
+				D6FBEEE0244FBEEA00E845B1 /* XYZFileTypeEnum.swift in Sources */,
 				D6CC72C9243C880900DEF3E2 /* XYZPathKit_GetPaths.swift in Sources */,
 				D6CC72D0243C910B00DEF3E2 /* XYZPath_XYZMusic.swift in Sources */,
 				D6CC72D8243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift in Sources */,
@@ -278,6 +289,7 @@
 				D6BEF18C243C5F3700828273 /* AppDelegate.swift in Sources */,
 				D6CC72CC243C88B800DEF3E2 /* XYZPathKit_URL_Extension.swift in Sources */,
 				D6BEF18E243C5F3700828273 /* SceneDelegate.swift in Sources */,
+				D6FBEEDE244FBDF800E845B1 /* XYZPath_XYZFolder.swift in Sources */,
 				D6CC72D6243C91C000DEF3E2 /* XYZPath_XYZString.swift in Sources */,
 				D6CC72C7243C86CB00DEF3E2 /* XYZPathKit_IsWhichType.swift in Sources */,
 				D6CC72C5243C862C00DEF3E2 /* XYZPathKit_Bundle.swift in Sources */,

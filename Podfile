@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
- source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+ #source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 platform :ios, '13.0'
 

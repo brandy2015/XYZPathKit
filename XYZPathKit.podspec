@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "XYZPathKit"
-    s.version      = "2.0.4"
+    s.version      = "2.0.5"
     s.summary      = "First Time"
     s.description  = <<-DESC
         不断升级这个pod，希望能让很多人喜欢
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
     s.platform     = :ios, "13.0"
-    s.source       = { :git => "https://github.com/brandy2015/XYZPathKit.git", :tag => "2.0.4"}
+    s.source       = { :git => "https://github.com/brandy2015/XYZPathKit.git", :tag => "2.0.5"}
     s.source_files = "XYZPathKit/Source/*"
 
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
