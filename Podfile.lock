@@ -10,7 +10,7 @@ DEPENDENCIES:
   - XYZTimeKit
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - FileKit
     - SwiftDate
     - XYZTimeKit
@@ -20,6 +20,6 @@ SPEC CHECKSUMS:
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   XYZTimeKit: 2df74d11cfa495ff7e2964017339943f44fefefe
 
-PODFILE CHECKSUM: 61313ae05cdb4d6ed88fc191ff3f449b04493e6a
+PODFILE CHECKSUM: c0747f2875458b66633fad8850dee2a6229919ad
 
 COCOAPODS: 1.9.1

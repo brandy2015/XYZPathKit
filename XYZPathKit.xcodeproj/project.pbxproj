@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B6DADDCA0ECFD36E278D68B /* Pods_XYZPathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086617DB8947EEC9F5187A2C /* Pods_XYZPathKit.framework */; };
+		D69597302473BED800856B24 /* XYZFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695972F2473BED800856B24 /* XYZFileExtension.swift */; };
+		D695973A2473C14100856B24 /* XYZImageGetScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69597392473C14100856B24 /* XYZImageGetScreenShot.swift */; };
 		D6BEF18C243C5F3700828273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF18B243C5F3700828273 /* AppDelegate.swift */; };
 		D6BEF18E243C5F3700828273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF18D243C5F3700828273 /* SceneDelegate.swift */; };
 		D6BEF190243C5F3700828273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF18F243C5F3700828273 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 		086617DB8947EEC9F5187A2C /* Pods_XYZPathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZPathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1345B191A3277415B6B7DD /* Pods-XYZPathKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZPathKit.release.xcconfig"; path = "Target Support Files/Pods-XYZPathKit/Pods-XYZPathKit.release.xcconfig"; sourceTree = "<group>"; };
 		D3897C45C5FA7342A74C26F4 /* Pods-XYZPathKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZPathKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZPathKit/Pods-XYZPathKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D695972F2473BED800856B24 /* XYZFileExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZFileExtension.swift; sourceTree = "<group>"; };
+		D69597392473C14100856B24 /* XYZImageGetScreenShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZImageGetScreenShot.swift; sourceTree = "<group>"; };
 		D6BEF188243C5F3700828273 /* XYZPathKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZPathKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6BEF18B243C5F3700828273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6BEF18D243C5F3700828273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				D6FBEEDF244FBEEA00E845B1 /* XYZFileTypeEnum.swift */,
 				D6CC72D7243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift */,
 				D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */,
+				D69597392473C14100856B24 /* XYZImageGetScreenShot.swift */,
+				D695972F2473BED800856B24 /* XYZFileExtension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -291,7 +297,9 @@
 				D6BEF18E243C5F3700828273 /* SceneDelegate.swift in Sources */,
 				D6FBEEDE244FBDF800E845B1 /* XYZPath_XYZFolder.swift in Sources */,
 				D6CC72D6243C91C000DEF3E2 /* XYZPath_XYZString.swift in Sources */,
+				D69597302473BED800856B24 /* XYZFileExtension.swift in Sources */,
 				D6CC72C7243C86CB00DEF3E2 /* XYZPathKit_IsWhichType.swift in Sources */,
+				D695973A2473C14100856B24 /* XYZImageGetScreenShot.swift in Sources */,
 				D6CC72C5243C862C00DEF3E2 /* XYZPathKit_Bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
