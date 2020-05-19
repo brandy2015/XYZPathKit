@@ -7,15 +7,7 @@
 //
 
 import UIKit
-import FileKit
-//import SHPathManager 
-
-
  
-
-
-
-
 
 public func 检测Pic文件并移至Pic文件夹(searchDepth:Int = 1)  {
     let textFiles = Path.userDocuments.find(searchDepth: searchDepth) { path in  path.isPic}

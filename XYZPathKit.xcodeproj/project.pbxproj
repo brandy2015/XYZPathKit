@@ -8,6 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		3B6DADDCA0ECFD36E278D68B /* Pods_XYZPathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086617DB8947EEC9F5187A2C /* Pods_XYZPathKit.framework */; };
+		D64A4D922473D76700D65DD0 /* FileProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D6F2473D76700D65DD0 /* FileProtection.swift */; };
+		D64A4D932473D76700D65DD0 /* Data+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D702473D76700D65DD0 /* Data+FileKit.swift */; };
+		D64A4D942473D76700D65DD0 /* NSString+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D712473D76700D65DD0 /* NSString+FileKit.swift */; };
+		D64A4D952473D76700D65DD0 /* NSArray+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D722473D76700D65DD0 /* NSArray+FileKit.swift */; };
+		D64A4D962473D76700D65DD0 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D732473D76700D65DD0 /* Process+FileKit.swift */; };
+		D64A4D972473D76700D65DD0 /* TextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D742473D76700D65DD0 /* TextFile.swift */; };
+		D64A4D982473D76700D65DD0 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D752473D76700D65DD0 /* RelativePathType.swift */; };
+		D64A4D992473D76700D65DD0 /* Array+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D762473D76700D65DD0 /* Array+File.swift */; };
+		D64A4D9A2473D76700D65DD0 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D772473D76700D65DD0 /* FilePermissions.swift */; };
+		D64A4D9B2473D76700D65DD0 /* Bundle+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D782473D76700D65DD0 /* Bundle+FileKit.swift */; };
+		D64A4D9C2473D76700D65DD0 /* Image+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D792473D76700D65DD0 /* Image+FileKit.swift */; };
+		D64A4D9D2473D76700D65DD0 /* NSDictionary+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D7A2473D76700D65DD0 /* NSDictionary+FileKit.swift */; };
+		D64A4D9E2473D76700D65DD0 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D7B2473D76700D65DD0 /* DataType.swift */; };
+		D64A4D9F2473D76700D65DD0 /* FileSystemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D7C2473D76700D65DD0 /* FileSystemEvent.swift */; };
+		D64A4DA02473D76700D65DD0 /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D7D2473D76700D65DD0 /* ImageFile.swift */; };
+		D64A4DA12473D76700D65DD0 /* FileSystemWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D7E2473D76700D65DD0 /* FileSystemWatcher.swift */; };
+		D64A4DA22473D76700D65DD0 /* DictionaryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D7F2473D76700D65DD0 /* DictionaryFile.swift */; };
+		D64A4DA32473D76700D65DD0 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D802473D76700D65DD0 /* FileType.swift */; };
+		D64A4DA42473D76700D65DD0 /* FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D812473D76700D65DD0 /* FileKit.swift */; };
+		D64A4DA52473D76700D65DD0 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D822473D76700D65DD0 /* Operators.swift */; };
+		D64A4DA62473D76700D65DD0 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D832473D76700D65DD0 /* Path.swift */; };
+		D64A4DA72473D76700D65DD0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D842473D76700D65DD0 /* File.swift */; };
+		D64A4DA82473D76700D65DD0 /* PropertyListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D852473D76700D65DD0 /* PropertyListType.swift */; };
+		D64A4DA92473D76700D65DD0 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D862473D76700D65DD0 /* DataFile.swift */; };
+		D64A4DAA2473D76700D65DD0 /* Dictionary+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D872473D76700D65DD0 /* Dictionary+File.swift */; };
+		D64A4DAB2473D76700D65DD0 /* NSDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D882473D76700D65DD0 /* NSDataFile.swift */; };
+		D64A4DAC2473D76700D65DD0 /* NSData+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D892473D76700D65DD0 /* NSData+FileKit.swift */; };
+		D64A4DAD2473D76700D65DD0 /* ArrayFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D8A2473D76700D65DD0 /* ArrayFile.swift */; };
+		D64A4DAE2473D76700D65DD0 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D8B2473D76700D65DD0 /* DispatchWatcher.swift */; };
+		D64A4DAF2473D76700D65DD0 /* JSONType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D8C2473D76700D65DD0 /* JSONType.swift */; };
+		D64A4DB02473D76700D65DD0 /* String+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D8D2473D76700D65DD0 /* String+FileKit.swift */; };
+		D64A4DB12473D76700D65DD0 /* DirectoryEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D8E2473D76700D65DD0 /* DirectoryEnumerator.swift */; };
+		D64A4DB22473D76700D65DD0 /* FileSystemEventStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D8F2473D76700D65DD0 /* FileSystemEventStream.swift */; };
+		D64A4DB32473D76700D65DD0 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D902473D76700D65DD0 /* DispatchEvent.swift */; };
+		D64A4DB42473D76700D65DD0 /* FileKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A4D912473D76700D65DD0 /* FileKitError.swift */; };
 		D69597302473BED800856B24 /* XYZFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695972F2473BED800856B24 /* XYZFileExtension.swift */; };
 		D695973A2473C14100856B24 /* XYZImageGetScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69597392473C14100856B24 /* XYZImageGetScreenShot.swift */; };
 		D6BEF18C243C5F3700828273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF18B243C5F3700828273 /* AppDelegate.swift */; };
@@ -41,6 +76,41 @@
 		086617DB8947EEC9F5187A2C /* Pods_XYZPathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZPathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1345B191A3277415B6B7DD /* Pods-XYZPathKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZPathKit.release.xcconfig"; path = "Target Support Files/Pods-XYZPathKit/Pods-XYZPathKit.release.xcconfig"; sourceTree = "<group>"; };
 		D3897C45C5FA7342A74C26F4 /* Pods-XYZPathKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZPathKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZPathKit/Pods-XYZPathKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D64A4D6F2473D76700D65DD0 /* FileProtection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileProtection.swift; sourceTree = "<group>"; };
+		D64A4D702473D76700D65DD0 /* Data+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D712473D76700D65DD0 /* NSString+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D722473D76700D65DD0 /* NSArray+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D732473D76700D65DD0 /* Process+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Process+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D742473D76700D65DD0 /* TextFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFile.swift; sourceTree = "<group>"; };
+		D64A4D752473D76700D65DD0 /* RelativePathType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativePathType.swift; sourceTree = "<group>"; };
+		D64A4D762473D76700D65DD0 /* Array+File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+File.swift"; sourceTree = "<group>"; };
+		D64A4D772473D76700D65DD0 /* FilePermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePermissions.swift; sourceTree = "<group>"; };
+		D64A4D782473D76700D65DD0 /* Bundle+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D792473D76700D65DD0 /* Image+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D7A2473D76700D65DD0 /* NSDictionary+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D7B2473D76700D65DD0 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		D64A4D7C2473D76700D65DD0 /* FileSystemEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEvent.swift; sourceTree = "<group>"; };
+		D64A4D7D2473D76700D65DD0 /* ImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFile.swift; sourceTree = "<group>"; };
+		D64A4D7E2473D76700D65DD0 /* FileSystemWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemWatcher.swift; sourceTree = "<group>"; };
+		D64A4D7F2473D76700D65DD0 /* DictionaryFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryFile.swift; sourceTree = "<group>"; };
+		D64A4D802473D76700D65DD0 /* FileType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
+		D64A4D812473D76700D65DD0 /* FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileKit.swift; sourceTree = "<group>"; };
+		D64A4D822473D76700D65DD0 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		D64A4D832473D76700D65DD0 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		D64A4D842473D76700D65DD0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D64A4D852473D76700D65DD0 /* PropertyListType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListType.swift; sourceTree = "<group>"; };
+		D64A4D862473D76700D65DD0 /* DataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
+		D64A4D872473D76700D65DD0 /* Dictionary+File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+File.swift"; sourceTree = "<group>"; };
+		D64A4D882473D76700D65DD0 /* NSDataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDataFile.swift; sourceTree = "<group>"; };
+		D64A4D892473D76700D65DD0 /* NSData+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D8A2473D76700D65DD0 /* ArrayFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayFile.swift; sourceTree = "<group>"; };
+		D64A4D8B2473D76700D65DD0 /* DispatchWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchWatcher.swift; sourceTree = "<group>"; };
+		D64A4D8C2473D76700D65DD0 /* JSONType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONType.swift; sourceTree = "<group>"; };
+		D64A4D8D2473D76700D65DD0 /* String+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FileKit.swift"; sourceTree = "<group>"; };
+		D64A4D8E2473D76700D65DD0 /* DirectoryEnumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryEnumerator.swift; sourceTree = "<group>"; };
+		D64A4D8F2473D76700D65DD0 /* FileSystemEventStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEventStream.swift; sourceTree = "<group>"; };
+		D64A4D902473D76700D65DD0 /* DispatchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchEvent.swift; sourceTree = "<group>"; };
+		D64A4D912473D76700D65DD0 /* FileKitError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileKitError.swift; sourceTree = "<group>"; };
 		D695972F2473BED800856B24 /* XYZFileExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZFileExtension.swift; sourceTree = "<group>"; };
 		D69597392473C14100856B24 /* XYZImageGetScreenShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZImageGetScreenShot.swift; sourceTree = "<group>"; };
 		D6BEF188243C5F3700828273 /* XYZPathKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZPathKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +171,48 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D64A4D6E2473D76700D65DD0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D64A4D6F2473D76700D65DD0 /* FileProtection.swift */,
+				D64A4D702473D76700D65DD0 /* Data+FileKit.swift */,
+				D64A4D712473D76700D65DD0 /* NSString+FileKit.swift */,
+				D64A4D722473D76700D65DD0 /* NSArray+FileKit.swift */,
+				D64A4D732473D76700D65DD0 /* Process+FileKit.swift */,
+				D64A4D742473D76700D65DD0 /* TextFile.swift */,
+				D64A4D752473D76700D65DD0 /* RelativePathType.swift */,
+				D64A4D762473D76700D65DD0 /* Array+File.swift */,
+				D64A4D772473D76700D65DD0 /* FilePermissions.swift */,
+				D64A4D782473D76700D65DD0 /* Bundle+FileKit.swift */,
+				D64A4D792473D76700D65DD0 /* Image+FileKit.swift */,
+				D64A4D7A2473D76700D65DD0 /* NSDictionary+FileKit.swift */,
+				D64A4D7B2473D76700D65DD0 /* DataType.swift */,
+				D64A4D7C2473D76700D65DD0 /* FileSystemEvent.swift */,
+				D64A4D7D2473D76700D65DD0 /* ImageFile.swift */,
+				D64A4D7E2473D76700D65DD0 /* FileSystemWatcher.swift */,
+				D64A4D7F2473D76700D65DD0 /* DictionaryFile.swift */,
+				D64A4D802473D76700D65DD0 /* FileType.swift */,
+				D64A4D812473D76700D65DD0 /* FileKit.swift */,
+				D64A4D822473D76700D65DD0 /* Operators.swift */,
+				D64A4D832473D76700D65DD0 /* Path.swift */,
+				D64A4D842473D76700D65DD0 /* File.swift */,
+				D64A4D852473D76700D65DD0 /* PropertyListType.swift */,
+				D64A4D862473D76700D65DD0 /* DataFile.swift */,
+				D64A4D872473D76700D65DD0 /* Dictionary+File.swift */,
+				D64A4D882473D76700D65DD0 /* NSDataFile.swift */,
+				D64A4D892473D76700D65DD0 /* NSData+FileKit.swift */,
+				D64A4D8A2473D76700D65DD0 /* ArrayFile.swift */,
+				D64A4D8B2473D76700D65DD0 /* DispatchWatcher.swift */,
+				D64A4D8C2473D76700D65DD0 /* JSONType.swift */,
+				D64A4D8D2473D76700D65DD0 /* String+FileKit.swift */,
+				D64A4D8E2473D76700D65DD0 /* DirectoryEnumerator.swift */,
+				D64A4D8F2473D76700D65DD0 /* FileSystemEventStream.swift */,
+				D64A4D902473D76700D65DD0 /* DispatchEvent.swift */,
+				D64A4D912473D76700D65DD0 /* FileKitError.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		D6BEF17F243C5F3700828273 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +252,7 @@
 		D6CC72BF243C831C00DEF3E2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D64A4D6E2473D76700D65DD0 /* Sources */,
 				D6CC72C0243C840800DEF3E2 /* XYZPathKit_UserDevicePath.swift */,
 				D6CC72C2243C85B600DEF3E2 /* XYZPathKit_ManipulatePath.swift */,
 				D6CC72C4243C862C00DEF3E2 /* XYZPathKit_Bundle.swift */,
@@ -280,27 +393,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64A4D972473D76700D65DD0 /* TextFile.swift in Sources */,
+				D64A4DB02473D76700D65DD0 /* String+FileKit.swift in Sources */,
+				D64A4D9B2473D76700D65DD0 /* Bundle+FileKit.swift in Sources */,
 				D6CC72D4243C919700DEF3E2 /* XYZPath_XYZVideo.swift in Sources */,
+				D64A4D9F2473D76700D65DD0 /* FileSystemEvent.swift in Sources */,
+				D64A4DA82473D76700D65DD0 /* PropertyListType.swift in Sources */,
 				D6CC72C3243C85B600DEF3E2 /* XYZPathKit_ManipulatePath.swift in Sources */,
+				D64A4DB22473D76700D65DD0 /* FileSystemEventStream.swift in Sources */,
+				D64A4D9C2473D76700D65DD0 /* Image+FileKit.swift in Sources */,
+				D64A4DAA2473D76700D65DD0 /* Dictionary+File.swift in Sources */,
 				D6FBEEE2244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift in Sources */,
+				D64A4DB12473D76700D65DD0 /* DirectoryEnumerator.swift in Sources */,
+				D64A4D9A2473D76700D65DD0 /* FilePermissions.swift in Sources */,
+				D64A4DAE2473D76700D65DD0 /* DispatchWatcher.swift in Sources */,
+				D64A4DA42473D76700D65DD0 /* FileKit.swift in Sources */,
 				D6D071F5243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift in Sources */,
+				D64A4DA02473D76700D65DD0 /* ImageFile.swift in Sources */,
+				D64A4DAC2473D76700D65DD0 /* NSData+FileKit.swift in Sources */,
 				D6BEF190243C5F3700828273 /* ViewController.swift in Sources */,
 				D6CC72C1243C840800DEF3E2 /* XYZPathKit_UserDevicePath.swift in Sources */,
 				D6CC72D2243C913F00DEF3E2 /* XYZPath_XYZFile.swift in Sources */,
+				D64A4D932473D76700D65DD0 /* Data+FileKit.swift in Sources */,
 				D6FBEEE0244FBEEA00E845B1 /* XYZFileTypeEnum.swift in Sources */,
+				D64A4DA52473D76700D65DD0 /* Operators.swift in Sources */,
 				D6CC72C9243C880900DEF3E2 /* XYZPathKit_GetPaths.swift in Sources */,
+				D64A4DA12473D76700D65DD0 /* FileSystemWatcher.swift in Sources */,
 				D6CC72D0243C910B00DEF3E2 /* XYZPath_XYZMusic.swift in Sources */,
+				D64A4D982473D76700D65DD0 /* RelativePathType.swift in Sources */,
+				D64A4DA32473D76700D65DD0 /* FileType.swift in Sources */,
+				D64A4DA62473D76700D65DD0 /* Path.swift in Sources */,
+				D64A4D992473D76700D65DD0 /* Array+File.swift in Sources */,
+				D64A4DAF2473D76700D65DD0 /* JSONType.swift in Sources */,
 				D6CC72D8243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift in Sources */,
+				D64A4D942473D76700D65DD0 /* NSString+FileKit.swift in Sources */,
+				D64A4DAD2473D76700D65DD0 /* ArrayFile.swift in Sources */,
 				D6CC72CE243C90A100DEF3E2 /* XYZPath_UIImage.swift in Sources */,
 				D6BEF18C243C5F3700828273 /* AppDelegate.swift in Sources */,
+				D64A4D9D2473D76700D65DD0 /* NSDictionary+FileKit.swift in Sources */,
 				D6CC72CC243C88B800DEF3E2 /* XYZPathKit_URL_Extension.swift in Sources */,
+				D64A4D922473D76700D65DD0 /* FileProtection.swift in Sources */,
 				D6BEF18E243C5F3700828273 /* SceneDelegate.swift in Sources */,
+				D64A4D9E2473D76700D65DD0 /* DataType.swift in Sources */,
+				D64A4DA22473D76700D65DD0 /* DictionaryFile.swift in Sources */,
+				D64A4DB32473D76700D65DD0 /* DispatchEvent.swift in Sources */,
 				D6FBEEDE244FBDF800E845B1 /* XYZPath_XYZFolder.swift in Sources */,
 				D6CC72D6243C91C000DEF3E2 /* XYZPath_XYZString.swift in Sources */,
+				D64A4D952473D76700D65DD0 /* NSArray+FileKit.swift in Sources */,
+				D64A4DA72473D76700D65DD0 /* File.swift in Sources */,
+				D64A4DA92473D76700D65DD0 /* DataFile.swift in Sources */,
 				D69597302473BED800856B24 /* XYZFileExtension.swift in Sources */,
 				D6CC72C7243C86CB00DEF3E2 /* XYZPathKit_IsWhichType.swift in Sources */,
+				D64A4DAB2473D76700D65DD0 /* NSDataFile.swift in Sources */,
 				D695973A2473C14100856B24 /* XYZImageGetScreenShot.swift in Sources */,
+				D64A4D962473D76700D65DD0 /* Process+FileKit.swift in Sources */,
 				D6CC72C5243C862C00DEF3E2 /* XYZPathKit_Bundle.swift in Sources */,
+				D64A4DB42473D76700D65DD0 /* FileKitError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

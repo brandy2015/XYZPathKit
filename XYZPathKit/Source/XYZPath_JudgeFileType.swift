@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import FileKit
+
 
 public extension Path{
     func containExtension(FilePath:Path,FileExs:[String]) -> Bool {

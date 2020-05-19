@@ -9,8 +9,8 @@ target 'XYZPathKit' do
   use_frameworks!
 
   # Pods for XYZPathKit
-  pod 'FileKit'
-  pod 'SwiftDate'             # 时间库
+ # pod 'FileKit'
+  #pod 'SwiftDate'             # 时间库
   pod 'XYZTimeKit'        #时间管理路径
   
 end
