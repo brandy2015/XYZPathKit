@@ -71,8 +71,6 @@ public extension AVMetadataItem{
 
 
 
-
-
 ////////////////
 //let audioInfo = MPNowPlayingInfoCenter.defaultCenter()
 //var nowPlayingInfo:[String:AnyObject] = [:]

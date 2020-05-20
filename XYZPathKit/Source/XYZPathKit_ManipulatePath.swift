@@ -139,10 +139,7 @@ public func MoveToZip(searchDepth:Int = 1)  {
 public func MoveToPic(searchDepth:Int = 1)  {
     if !userPic.exists{try?  userPic.createDirectory()}else{ print("存在")}
     let textFiles = Path.userDocuments.find(searchDepth: searchDepth) { path in
-        
-        
         PicContain判断函数(FilePath: path)
-        
     }
     for i in textFiles{
         if i^ != userPic{

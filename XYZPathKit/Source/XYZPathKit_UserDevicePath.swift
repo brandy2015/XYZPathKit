@@ -7,8 +7,6 @@
 //
  
 import UIKit
- 
-
 
 //获取系统的路径
 public let userDocument     = Path.userDocuments

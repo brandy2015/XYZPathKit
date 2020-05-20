@@ -5,7 +5,7 @@ DEPENDENCIES:
   - XYZTimeKit
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - XYZTimeKit
 
 SPEC CHECKSUMS:
@@ -13,4 +13,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f1518403864cfe6fada4c7d6ef4b1cdcad788cb9
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.7.5
