@@ -67,6 +67,7 @@
 		D6CC72D6243C91C000DEF3E2 /* XYZPath_XYZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC72D5243C91C000DEF3E2 /* XYZPath_XYZString.swift */; };
 		D6CC72D8243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC72D7243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift */; };
 		D6D071F5243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D071F4243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift */; };
+		D6D8F1C724B4119900AC9C5C /* XYZPathKit_XYZFIle_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D8F1C624B4119900AC9C5C /* XYZPathKit_XYZFIle_Ex.swift */; };
 		D6FBEEDE244FBDF800E845B1 /* XYZPath_XYZFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEEDD244FBDF800E845B1 /* XYZPath_XYZFolder.swift */; };
 		D6FBEEE0244FBEEA00E845B1 /* XYZFileTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEEDF244FBEEA00E845B1 /* XYZFileTypeEnum.swift */; };
 		D6FBEEE2244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */; };
@@ -137,6 +138,7 @@
 		D6CC72D5243C91C000DEF3E2 /* XYZPath_XYZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_XYZString.swift; sourceTree = "<group>"; };
 		D6CC72D7243C92CA00DEF3E2 /* XYZPath_UIDocumentBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_UIDocumentBrowser.swift; sourceTree = "<group>"; };
 		D6D071F4243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZPath_UIImage_ImageHelper.swift; sourceTree = "<group>"; };
+		D6D8F1C624B4119900AC9C5C /* XYZPathKit_XYZFIle_Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPathKit_XYZFIle_Ex.swift; sourceTree = "<group>"; };
 		D6FBEEDD244FBDF800E845B1 /* XYZPath_XYZFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_XYZFolder.swift; sourceTree = "<group>"; };
 		D6FBEEDF244FBEEA00E845B1 /* XYZFileTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZFileTypeEnum.swift; sourceTree = "<group>"; };
 		D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPath_JudgeFileType.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				D6FBEEE1244FBF6B00E845B1 /* XYZPath_JudgeFileType.swift */,
 				D69597392473C14100856B24 /* XYZImageGetScreenShot.swift */,
 				D695972F2473BED800856B24 /* XYZFileExtension.swift */,
+				D6D8F1C624B4119900AC9C5C /* XYZPathKit_XYZFIle_Ex.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -304,7 +307,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "张子豪";
 				TargetAttributes = {
 					D6BEF187243C5F3700828273 = {
@@ -408,6 +411,7 @@
 				D64A4D9A2473D76700D65DD0 /* FilePermissions.swift in Sources */,
 				D64A4DAE2473D76700D65DD0 /* DispatchWatcher.swift in Sources */,
 				D64A4DA42473D76700D65DD0 /* FileKit.swift in Sources */,
+				D6D8F1C724B4119900AC9C5C /* XYZPathKit_XYZFIle_Ex.swift in Sources */,
 				D6D071F5243C9C47004851E7 /* XYZPath_UIImage_ImageHelper.swift in Sources */,
 				D64A4DA02473D76700D65DD0 /* ImageFile.swift in Sources */,
 				D64A4DAC2473D76700D65DD0 /* NSData+FileKit.swift in Sources */,
@@ -500,6 +504,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -524,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -560,6 +565,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -578,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -594,8 +600,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E5VG453CHM;
+				DEVELOPMENT_TEAM = 9GZYHL8TWB;
 				INFOPLIST_FILE = XYZPathKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,8 +620,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E5VG453CHM;
+				DEVELOPMENT_TEAM = 9GZYHL8TWB;
 				INFOPLIST_FILE = XYZPathKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

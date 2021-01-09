@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "XYZPathKit"
-    s.version      = "2.1.2"
+    s.version      = "3.0.1"
     s.summary      = "First Time"
     s.description  = <<-DESC
         不断升级这个pod，希望能让很多人喜欢
@@ -23,14 +23,13 @@ Pod::Spec.new do |s|
 
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
     s.ios.deployment_target = '13.0'
- 
-    #s.dependency 'SwiftDate'
+  
     s.dependency 'XYZTimeKit'
 
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
     s.platform     = :ios, "13.0"
-    s.source       = { :git => "https://github.com/brandy2015/XYZPathKit.git", :tag => "2.1.2"}
+    s.source       = { :git => "https://github.com/brandy2015/XYZPathKit.git", :tag => "3.0.1"}
     s.source_files = "{XYZPathKit/Source/*,XYZPathKit/Source/*/*}"
 
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
