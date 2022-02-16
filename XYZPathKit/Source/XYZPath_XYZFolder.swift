@@ -20,6 +20,7 @@ public enum XYZFolderNameEnum:String {
     case AlreadyUnzip
     case LMR
     case Photo
+    case Office
     case userSecret
     case UnKnown
 }
