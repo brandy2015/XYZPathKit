@@ -44,7 +44,7 @@ public extension Path{
     }
     
     var isOffice:Bool{
-        return containExtension(FilePath: self, FileExs: [ "WPS",  "DOC" ,"XLS" ,"PPT" ,"DOCX" ,"XLSX" ,"PPTX" ,"TXT" ])
+        return containExtension(FilePath: self, FileExs: [ "WPS",  "DOC" ,"XLS" ,"PPT" ,"DOCX" ,"XLSX" ,"PPTX" ,"TXT","KEY","PAGES","numbers".uppercased() ])
     }
     
     var XYZFileType:XYZFileTypeEnum{
