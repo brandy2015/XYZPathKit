@@ -76,7 +76,7 @@ public extension Path{
     }
 }
 
-public enum XYZFileType:String {case Music,Video,PDF,Compression,LMR,Photo,unknowntype,Directory}//文件路径
+public enum XYZFileType:String {case Music,Video,PDF,Compression,LMR,Photo,unknowntype,Directory,Office}//文件路径
 
 public func GetFileType(GivePath:Path) -> XYZFileType {
     guard GivePath.pathExtension != "" else {return GivePath.isDirectory ? .Directory : .unknowntype}

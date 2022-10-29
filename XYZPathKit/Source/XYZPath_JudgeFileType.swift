@@ -28,16 +28,9 @@ public extension Path{
     var isVideo:Bool{
         return containExtension(FilePath: self, FileExs: ["MOV","MP4","AVI","WMV","MPG","M4V","MPG","RMVB","MKV","FLV","3GP"])
     }
-    
-    var isPic:Bool{
-        //        print("图片has值")
-        //
-        //        print(FilePath.hashValue)
-        //
-        //        print("FileType")
-        //        print(FilePath)
-        
-        return containExtension(FilePath: self, FileExs: ["PNG","JPG","JPEG","HEIC"])
+     
+    var isPic:Bool{ 
+        return containExtension(FilePath: self, FileExs: ["PNG","JPG","JPEG","HEIC","GIF","BMP"])
     }
     
     var isPDF:Bool{
@@ -51,7 +44,7 @@ public extension Path{
     }
     
     var isOffice:Bool{
-        return containExtension(FilePath: self, FileExs: [ "WPS",  "doc".uppercased(),"xls".uppercased(),"PPT".uppercased(),"docx".uppercased(),"xlsx".uppercased(),"PPTX".uppercased(),"txt".uppercased()])
+        return containExtension(FilePath: self, FileExs: [ "WPS",  "DOC" ,"XLS" ,"PPT" ,"DOCX" ,"XLSX" ,"PPTX" ,"TXT" ])
     }
     
     var XYZFileType:XYZFileTypeEnum{
