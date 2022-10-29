@@ -27,6 +27,7 @@ public var userLMR  :Path{ let userFolderX  = Path.userDocuments   + "LMR"      
 public var userZip  :Path{ let userFolderX  = Path.userDocuments   + "Zip"       ;if !userFolderX.exists{try? userFolderX.createDirectory()  } ; return userFolderX }
 public var userPic  :Path{ let userFolderX  = Path.userDocuments   + "Picture"   ;if !userFolderX.exists{try? userFolderX.createDirectory()  } ; return userFolderX }
 
+public var userOffice  :Path{ let userFolderX  = Path.userDocuments   + "Office"   ;if !userFolderX.exists{try? userFolderX.createDirectory()  } ; return userFolderX }
 
 public var userInbox1       :Path{
     let userFolderX  = Path.userDocuments   + "Inbox1"        ;if !userFolderX.exists{try? userFolderX.createDirectory()  } ; return userFolderX }

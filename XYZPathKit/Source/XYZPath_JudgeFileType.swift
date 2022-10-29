@@ -5,6 +5,13 @@
 //  Created by 张子豪 on 2020/4/22.
 //  Copyright © 2020 张子豪. All rights reserved.
 //
+//
+//  XYZPath_JudgeFileType.swift
+//  XYZPathKit
+//
+//  Created by 张子豪 on 2020/4/22.
+//  Copyright © 2020 张子豪. All rights reserved.
+//
 
 import UIKit
 
@@ -43,15 +50,19 @@ public extension Path{
         return containExtension(FilePath: self, FileExs: ["LMR"])
     }
     
+    var isOffice:Bool{
+        return containExtension(FilePath: self, FileExs: [ "WPS",  "doc".uppercased(),"xls".uppercased(),"PPT".uppercased(),"docx".uppercased(),"xlsx".uppercased(),"PPTX".uppercased(),"txt".uppercased()])
+    }
     
     var XYZFileType:XYZFileTypeEnum{
         if self.isDirectory { return .Directory}
-        if isMusic{return .Music}
-        if isVideo{return .Video}
-        if isPic{return .Photo}
-        if isPDF{return .PDF}
-        if isZip{return .Compression}
-        if isLMR{return .LMR}
+        if isMusic  {return .Music}
+        if isVideo  {return .Video}
+        if isPic    {return .Photo}
+        if isPDF    {return .PDF}
+        if isZip    {return .Compression}
+        if isLMR    {return .LMR}
+        if isOffice {return .Office}
         return .unknowntype
     }
     
@@ -74,5 +85,7 @@ public extension Path{
     func ReturnLMRTextPath(searchDepth:Int = 1) -> [Path] {
         return self.find(searchDepth: searchDepth) { path in  path.isLMR}
     }
+    func ReturnOfficeTextPath(searchDepth:Int = 1) -> [Path] {
+        return self.find(searchDepth: searchDepth) { path in  path.isOffice}
+    }
 }
-

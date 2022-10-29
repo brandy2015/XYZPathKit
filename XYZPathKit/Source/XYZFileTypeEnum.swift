@@ -7,5 +7,5 @@
 //
 
 import UIKit
-
-public enum XYZFileTypeEnum:String {case Music,Video,PDF,Compression,LMR,Photo,unknowntype,Directory}//文件路径
+ 
+public enum XYZFileTypeEnum:String {case Music,Video,PDF,Compression,LMR,Office,Photo,unknowntype,Directory}//文件路径
